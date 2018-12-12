@@ -1,0 +1,134 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: #02a5a5;
+}
+
+.jumbotron{
+  background-color: #072146;
+  color: white;
+  text-align: center;
+  height: 170px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+.card-img-top{
+  width: 200px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #02a5a5;
+} 
+.card{
+  background-color: #02a5a5;
+  display: flex;
+  align-content: center;
+}
+.card-group{
+  background-color: #02a5a5;
+}
+.btn-primary{
+  padding-right: 15px;
+  margin-right: 20px;
+}
+.card-body{
+  
+  background-color: #02a5a5;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.card-text{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  color: black;
+}
+.card-title{
+  text-align: center;
+  margin-bottom: 2px;
+  padding-bottom: 5px;
+}
+#p1{
+  width: 80px;
+  height: 80px;
+}
+
+#p2{
+  width: 80px;
+  height: 80px;
+}
+#p3{
+  width: 80px;
+  height: 80px;
+}
+#p4{
+  width: 80px;
+  height: 80px;
+}
+#p5{
+  width: 80px;
+  height: 80px;
+} 
+#p6{
+  width: 80px;
+  height: 80px;
+}
+.jumbotron-fluid{
+  text-align: center;
+  background-color: #004481;
+  color: aliceblue;
+  margin: 0px;
+
+}
+.equipos{
+  margin: 0px;
+}
+.subt{
+  margin-bottom: 0px;
+  height: 5px;
+
+}
+.h1{
+  margin-bottom: 0px;
+}
+.card{
+  padding-top: 20px;
+}
+.botones{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.jumbotron{
+  margin: 0px;
+background-color: coral;  
+  width: 100%;
+  height: 46px;
+  padding-bottom: 5px;
+}
+@media(max-width : 414px){
+  .despacho{
+     padding-top: 5px; 
+    font-size: 22px;
+  }
+  .regiones{
+    font-size: 10px;
+  }
+}
+@media(max-width : 420px){
+  body{
+
+        background-color: #02a5a5;
+  }
+
+  .jumbotron-fluid{
+    width: 100%;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+  
+}

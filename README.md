@@ -11,5 +11,4 @@ EMPRESA MUNDOTONER.CL, DANDO TODAS LAS OPCIONES POSIBLE DE COMPRAS A LOS CLIENTE
 *   GENERAR TRAFICO Y AUMENTOS DE VENTAS DEL PRODUCTO
 
 
-![Imagen Maqueta](assets/images/maqueta.jpg)
-
+![maqueta](https://user-images.githubusercontent.com/35267437/49905365-2e25d100-fe4c-11e8-926a-813168d94275.jpg)

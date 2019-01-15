@@ -4,6 +4,11 @@ body{
   width: 100%;
   background-color: #02a5a5;
 }
+.col{
+  width: 100%;
+  padding-top: 20px;
+  
+}
 
 .jumbotron{
   background-color: #072146;
@@ -16,11 +21,11 @@ body{
 .card-img-top{
   width: 200px;
   height: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left:50px;
+
   background-color: #02a5a5;
 } 
-.card{
+.row{
   background-color: #02a5a5;
   display: flex;
   align-content: center;
@@ -115,6 +120,7 @@ background-color: coral;
   }
   .regiones{
     font-size: 10px;
+
   }
 }
 @media(max-width : 420px){

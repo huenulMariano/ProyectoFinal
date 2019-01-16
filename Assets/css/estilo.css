@@ -121,6 +121,18 @@ color: white;
 
 
 }
+.login{
+  width: 50%;
+  height: 50px;
+  margin-left: 400px;
+}
+.mapa{
+  margin-left: 400px;
+}
+.dir{
+  text-align: center;
+  color: white;
+}
 @media(max-width : 414px){
   .despacho{
      padding-top: 5px; 

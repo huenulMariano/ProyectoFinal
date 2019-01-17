@@ -21,8 +21,8 @@ body{
 .card-img-top{
   width: 200px;
   height: 80px;
-  margin-left:50px;
-
+  margin-left:auto;
+  margin-right: auto;
   background-color: #02a5a5;
 } 
 .row{
@@ -55,31 +55,12 @@ body{
   margin-bottom: 2px;
   padding-bottom: 5px;
 }
-#p1{
-  width: 80px;
-  height: 80px;
-}
 
-#p2{
-  width: 80px;
-  height: 80px;
-}
-#p3{
-  width: 80px;
-  height: 80px;
-}
-#p4{
-  width: 80px;
-  height: 80px;
-}
-#p5{
-  width: 80px;
-  height: 80px;
-} 
-#p6{
-  width: 80px;
-  height: 80px;
-}
+.carousel-inner img {
+    width: 100%;
+    height: 250px;
+   
+	}
 .jumbotron-fluid{
   text-align: center;
   background-color: #004481;
@@ -87,9 +68,7 @@ body{
   margin: 0px;
 
 }
-.equipos{
-  margin: 0px;
-}
+
 .subt{
   margin-bottom: 0px;
   height: 5px;
@@ -99,7 +78,10 @@ body{
   margin-bottom: 0px;
 }
 .card{
-  padding-top: 20px;
+  background-color: #02a5a5;
+  display: flex;
+  align-content: center;
+  padding-top: 10px;
 }
 .botones{
   display: flex;
@@ -133,6 +115,43 @@ color: white;
   text-align: center;
   color: white;
 }
+#row.b{
+  height: 200px;
+  display: flex;
+align-items: center;
+}
+
+.featured{
+
+  width: 450px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+}
+.gallery{
+  margin-top: 20px;
+  text-align: center;
+}
+.thumb{
+  width:200px;
+  height:100px;
+}
+#banner{
+  padding-top: 20px;
+  width: 50%; 
+}
+#regiones{
+margin-top: 25px;
+}
+#transf{
+  text-align: center;
+  color: white;
+}
+.mp{
+  margin: auto;
+}
+
 @media(max-width : 414px){
   .despacho{
      padding-top: 5px; 
@@ -142,12 +161,14 @@ color: white;
     font-size: 10px;
 
   }
+
 }
 @media(max-width : 420px){
   body{
 
         background-color: #02a5a5;
   }
+
 
   .jumbotron-fluid{
     width: 100%;
